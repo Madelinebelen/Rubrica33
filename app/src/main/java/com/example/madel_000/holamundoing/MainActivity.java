@@ -21,7 +21,7 @@ public class MainActivity extends Activity {
     }
     public void mostrarmensaje(View v)
     {
-        texto1.setText("HOLA MUNDO");
+        texto1.setText("HOLA MUNDO SOY MADELINE");
 
     }
 
