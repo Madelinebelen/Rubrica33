@@ -26,6 +26,8 @@
         android:id="@+id/texto1"
         android:layout_below="@+id/boton1"
         android:textSize="30dp"
+        android:background="#B2DFDB"
+        android:textColor="@android:color/white"
         android:textStyle="bold"
         android:layout_alignParentStart="true" />
 
