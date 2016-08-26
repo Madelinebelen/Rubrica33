@@ -9,13 +9,19 @@ import android.widget.Button;
 import android.widget.TextView;
 
 public class MainActivity extends Activity {
+    public TextView texto1;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
         Button Boton1 = (Button) findViewById(R.id.boton1);
-        TextView Texto1= (TextView)findViewById(R.id.texto1);
+        texto1= (TextView)findViewById(R.id.texto1);
+
+    }
+    public void mostrarmensaje(View v)
+    {
+        texto1.setText("HOLA MUNDO");
 
     }
 
