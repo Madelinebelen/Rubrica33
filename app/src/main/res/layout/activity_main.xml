@@ -15,6 +15,7 @@
         android:layout_alignParentTop="true"
         android:layout_alignParentStart="true"
         android:background="#00897B"
+
         android:textColor="@android:color/white"
         android:textSize="25dp"/>
 
